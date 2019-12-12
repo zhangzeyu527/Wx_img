@@ -1,0 +1,16 @@
+{
+  "pages": [
+    "pages/DiyIcon/DiyIcon",
+    "pages/cap/cap",
+    
+    "pages/add/add",
+    "pages/list/list"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f88",
+    "navigationBarTitleText": "喵~",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,22 @@
+<!--pages/DiyIcon.wxml-->
+<!-- <button open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo">定制头像</button> -->
+
+<canvas bindtouchend="end" bindtouchmove="move" bindtouchstart="start" canvasId="myCanvas" class="canvas" canvas-id="gameCanvas" style="width:750rpx; height:750rpx"></canvas>
+<image class="bg" bindtap="tap" id="cap0" src="/img/5.jpg"></image>
+<!-- <image src="{{imgUrl}}"></image> -->
+
+<button bindtap="createImage">生成图片</button>
+
+<!-- <image class="bg" src="/images/dark_bg.jpg"></image>
+<button bindtap="choose" class="get" hoverClass="hover">选择自定义头像</button>
+<canvas bindtouchend="end" bindtouchmove="move" bindtouchstart="start" canvasId="myCanvas" class="canvas" style="height:{{height}}px;width:{{height}}px;margin-left:{{marginLeft}}px"></canvas>
+<scroll-view scrollX class="iconPanel">
+    <view bindtap="tap" class="imgPanel {{index==cap_index?'selected':''}}" id="cap{{index}}" wx:for="{{icons}}">
+        <image class="img" src="https://www.xxxzh.top/icons/c20.png"></image>
+    </view>
+</scroll-view>
+<view bindtap="save" class="save rowPanel" hoverClass="hover">
+    <image class="bbg" src="/images/b_save.jpg"></image>
+    <view class="b_text">
+        <image class="icon" src="/images/save.png"></image>保存到本地</view>
+</view> -->

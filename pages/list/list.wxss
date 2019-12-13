@@ -1,0 +1,52 @@
+.page {
+    position: relative;
+    margin: 0;padding: 0;
+}
+.lists {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid blue;
+}
+
+.list-i {
+    width: 100%;
+    height: 200rpx;
+    background: #eee;
+    margin: 10rpx 0;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+}
+
+.content {
+    height: 110rpx;
+    border-bottom: 1px solid red;
+    line-height: 110rpx;
+    padding: 0 20rpx;
+}
+
+.time {
+    color: #2A2BFF;
+    line-height: 90rpx;
+    padding: 0 20rpx;
+}
+.add {
+    width: 100rpx;
+    height: 100rpx;
+    position: absolute;
+    right: 80rpx;
+    bottom: 80rpx;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B3F0FF;
+}
+.add image {
+    width: 40rpx;
+    height: 40rpx;
+}

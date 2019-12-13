@@ -1,10 +1,13 @@
 {
   "pages": [
+    "pages/me/me",
+    "pages/me/cap/cap",
+    
     "pages/DiyIcon/DiyIcon",
     "pages/cap/cap",
-    
     "pages/add/add",
     "pages/list/list"
+   
   ],
   "window": {
     "backgroundTextStyle": "light",

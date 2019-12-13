@@ -1,0 +1,13 @@
+    <view bindtap="onPullDownRefresh" class="infoPanel columnPanel" hoverStartTime="10" hoverStayTime="10">
+        <image class="avatar" src="{{info.avatarUrl}}"></image>
+        <view class="usermsg">
+            <label class="name" wx:if="{{info.nickName.length>0}}">{{info.nickName}}</label>
+            <button bindgetuserinfo="onShow" bindtap="onShow" class="tip" openType="getUserInfo" style="background-color:rgba(0,0,0,0);" wx:else>{{tip}}</button>
+        </view>
+    </view>
+    <view bindtap="navigate" class="menuItem" hoverClass="hover" hoverStartTime="10" hoverStayTime="10" id="{{index}}" style="margin-top:0%" wx:for="{{menuItem}}">
+        <image class="image" mode="scaleToFill" src="{{menuIcon[index]}}"></image>
+        <label class="menuText">{{item}}<view class="badge" wx:if="{{index==0&&new_msg>0}}">{{new_msg}}</view>
+        </label>
+    </view>
+

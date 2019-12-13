@@ -1,0 +1,15 @@
+<image class="bg" src="/images/dark_bg.jpg"></image>
+<button bindtap="choose" class="get" hoverClass="hover" style="float:left;margin-left:50rpx;margin-right:50rpx;">自定义图片</button>
+<button class="get" hoverClass="hover" open-type='getUserInfo' bindgetuserinfo="bindGetUserInfo">个人头像定制</button>
+<canvas bindtouchend="end" bindtouchmove="move" bindtouchstart="start" canvasId="myCanvas" class="canvas" style="height:{{height}}px;width:{{height}}px;margin-left:{{marginLeft}}px"></canvas>
+<ad unitId="adunit-eede8ccba0492bc7" wx:if="{{showAd&&showCapAd}}"></ad>
+<scroll-view scrollX class="iconPanel">
+    <view bindtap="tap" class="imgPanel {{index==cap_index?'selected':''}}" id="cap{{index}}" wx:for="{{icons}}">
+        <image class="img" src="{{item}}"></image>
+    </view>   
+</scroll-view>
+<view bindtap="save" class="save rowPanel" hoverClass="hover">
+    <image class="bbg" src="/images/b_save.jpg"></image>
+    <view class="b_text">
+        <image class="icon" src="/images/save.png"></image>保存到本地</view>
+</view>

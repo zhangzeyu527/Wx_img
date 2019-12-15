@@ -2,9 +2,9 @@
   "pages": [
     "pages/me/me",
     "pages/me/cap/cap",
-    
-    "pages/DiyIcon/DiyIcon",
     "pages/cap/cap",
+    "pages/DiyIcon/DiyIcon",
+    
     "pages/add/add",
     "pages/list/list"
    
